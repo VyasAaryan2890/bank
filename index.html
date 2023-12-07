@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-------------------Hero Section----------------------->
+
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.svg" alt="">
+            <ul class="link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+                <img src="images/icon-close.svg" alt="" id="close">
+            </ul>
+            <button class="btn">Request Invite</button>
+            <div id="hum">
+            <img src="images/icon-hamburger.svg" alt="">
+        </div>
+        </div>
+    </div>
+
+    <!---------------------Second Part------------------------->
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <h1>Next generation <br>digital banking</h1>
+                <small>Take your financial life online.
+                    Your Easybank account will be a one-stop-shop for investing,and much more. </small><br>
+                <button class="btn1">Request Invite</button>
+            </div>
+            <div class="col-2">
+                <img src="images/image-mockups.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!---------------4 box section---------------------------->
+    <div class="main">
+        <h1>Why Choose Easybank</h1>
+            <p> We leverage Open Banking to turn your<br>
+                bank account into your financial hub.
+                Control your </p>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/icon-onboarding.svg" alt="" width="100%">
+                    <h1>Online Booking</h1>
+                    <p> Online Banking Our modern web and mobile applications 
+                        allow you to keep track of your finances wherever you 
+                        are in the world.</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/icon-onboarding.svg" alt="" width="100%">
+                    <h1>Online Booking</h1>
+                    <p> Online Banking Our modern web and mobile applications 
+                        allow you to keep track of your finances wherever you 
+                        are in the world.</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/icon-onboarding.svg" alt="" width="100%">
+                    <h1>Online Booking</h1>
+                    <p> Online Banking Our modern web and mobile applications 
+                        allow you to keep track of your finances wherever you 
+                        are in the world.</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/icon-onboarding.svg" alt="" width="100%">
+                    <h1>Online Booking</h1>
+                    <p> Online Banking Our modern web and mobile applications 
+                        allow you to keep track of your finances wherever you 
+                        are in the world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+         var hum = document.getElementById('hum');
+         var close=document.getElementById('close');
+        var link = document.querySelector('.link');
+
+        hum.addEventListener("click", function () {
+            link.classList.toggle('active');
+        });
+
+        close.addEventListener("click", function () {
+            link.classList.toggle('active');
+        });
+
+    
+    </script>
+
+</body>
+
+</html>
