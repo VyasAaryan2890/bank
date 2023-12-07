@@ -145,7 +145,7 @@ ul li a{
         transition: 1s;
     }
     .link a:hover{
-        color: rgb(55, 152, 152);
+        color: rgb(50, 208, 208);
     }
     .container {
         max-width: 1350px;
@@ -165,6 +165,8 @@ ul li a{
         min-width: 190px;
         margin-bottom: 1rem;
         box-shadow: 0px -8px 32px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        padding: 2rem;
     }
     #close{
         display: block;
@@ -177,5 +179,20 @@ ul li a{
     #hum{
         display: block;
     }
-  
+    .main {
+        padding: -1px 30px;
+        text-align: center;
+    }
+    .small-container {
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .3rem 1rem;
+    }
 }
